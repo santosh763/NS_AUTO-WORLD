@@ -1,9 +1,13 @@
 import React from 'react'
+import Navbar from '../Components/Navbar'
+import { images } from '../handler'
+import Crousal from '../Components/Carousel'
 
 function Home() {
   return (
-    <div>
-        <p>Welcome to NS world</p>
+    <div className='w-full'>
+        <Navbar/>
+        <Crousal image={images}/>
     </div>
   )
 }
